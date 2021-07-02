@@ -101,7 +101,7 @@ In this exercise, you will configure SQL Server 2008 R2 on the SqlServer2008 VM.
 
 In this task, you will create an RDP connection to the SqlServer2008 VM.
 
-1. In the [Azure portal](https://portal.azure.com), select **Resource groups** in the Azure services list, enter your resource group name (hands-on-lab-SUFFIX) into the filter box, and select it from the list.
+1. In the [Azure portal](https://portal.azure.com), select **Resource groups** in the Azure services list and select **sqlmigration-suffix** resource group.
 
    ![Resource groups is selected in the Azure navigation pane, hands is entered into the filter box, and the hands-on-lab-SUFFIX resource group is highlighted.](./media/resource-groups.png "Resource groups list")
 
@@ -140,7 +140,9 @@ In this task, you will install the AdventureWorks database in SQL Server 2008 R2
 
    ![The adventure-works-2008r2-dw-script.zip download link is highlighted under Assets for the sample database.](./media/adventure-works-2008-r2-sample-download.png "Assets list")
 
-3. Save the file, and unzip the downloaded file to a folder you create, called `C:\AdventureWorksSample`.
+3. Save the file, and unzip the downloaded file. On unzipping the file when asked to _Select a Destination_, then enter `C:\AdventureWorksSample` and select **Extract**.
+
+   ![](./media/sql01.png)
 
 4. Open **Microsoft SQL Server Management Studio 17** (SSMS) on the SqlServer2008 VM. It can be found under Start->All Programs->Microsoft SQL Server Tools 17.
 
@@ -170,9 +172,9 @@ In this task, you will install the AdventureWorks database in SQL Server 2008 R2
 
 12. Next, edit the file path for each variable so they point to the following (remember to include a trailing backslash ("\\") on each path):
 
-    - SqlSamplesDatabasePath: `C:\AdventureWorksSample\`
+    - SqlSamplesDatabasePath: ```C:\AdventureWorksSample\```
 
-    - SqlSamplesSourceDataPath: `C:\AdventureWorksSample\AdventureWorks 2008R2 Data Warehouse\`
+    - SqlSamplesSourceDataPath: ```C:\AdventureWorksSample\AdventureWorks 2008R2 Data Warehouse\```
 
       ![The variables and file paths specified above are highlighted in the SSMS query editor.](./media/ssms-query-editor-instawdwdb.png "Edit the variable file paths")
 
