@@ -188,7 +188,7 @@ In this task, you will install the AdventureWorks database in SQL Server 2008 R2
 
 15. This will create the `AdventureWorksDW2008R2` database. When the script is done running, you will see output similar to the following in the results pane.
 
-    ![Output is displayed in the results pane. At this time, we are unable to capture all of the information in the window. Future versions of this course should address this.](./media/ssms-query-instawdwdb-script-output.png "View the script output")
+    ![](./media/sql02.png)
 
 16. Expand **Databases** in Object Explorer, right-click the `AdventureWorksDW2008R2` database, and select **Rename**.
 
