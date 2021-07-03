@@ -514,19 +514,21 @@ In this task, you will create a new activity in the Azure Database Migration Ser
 
 1. On the Azure Database Migration Service blade, select **+New Activity**, and then select **Offline data migration**.
 
-   ![On the Azure Database Migration Service blade, +New Activity is highlighted, and the Run migration button is highlighted in the Create new activity dialog.](media/dms-add-new-activity.png "Azure Database Migration Service Add New Activity")
+   ![On the Azure Database Migration Service blade, +New Activity is highlighted, and the Run migration button is highlighted in the Create new activity dialog.](media/sql06.png "Azure Database Migration Service Add New Activity")
 
-2. On the Migration Wizard **Select source** blade, re-enter the demouser password, **Password.1!!**, then select **Next: Select target >>**.
+2. On the Migration Wizard **Select source** blade, re-enter the demouser password, **Password.1!!**, then select **Next: Select database >>**.
 
-   ![The Migration Wizard Select source blade is displayed, with the password value highlighted.](media/dms-migration-activity-source.PNG "Migration Wizard Select source")
+   ![The Migration Wizard Select source blade is displayed, with the password value highlighted.](media/sql06.PNG "Migration Wizard Select source")
 
-3. On the Migration Wizard **Select target** blade, re-enter the demouser password, **Password.1!!**, then select **Next: Map to target databases >>**.
+   ![The Migration Wizard Select target blade is displayed, with the password value highlighted.](media/sql03.PNG "Migration Wizard Select target")
 
-   ![The Migration Wizard Select target blade is displayed, with the password value highlighted.](media/dms-migration-activity-target.PNG "Migration Wizard Select target")
+3. On the Migration Wizard **Select target** blade, re-enter the demouser password, **Password.1!!**, then select **Next: Select database and schema >>**.
+
+   ![The Migration Wizard Select target blade is displayed, with the password value highlighted.](media/sql04.PNG "Migration Wizard Select target")
 
 4. On the Migration Wizard **Map to target databases** blade, confirm that **WideWorldImporters** is checked as the source database, and that it is also the target database on the same line, then select **Next: Configure migration settings >>**.
 
-   ![The Migration Wizard Map to target database blade is displayed, with the WideWorldImporters line highlighted.](media/dms-migration-activity-select-target-db.png "Migration Wizard Map to target databases")
+   ![The Migration Wizard Map to target database blade is displayed, with the WideWorldImporters line highlighted.](media/sql07.png "Migration Wizard Map to target databases")
 
 5. On the Migration Wizard **Configure migration settings** blade, expand the WideWorldImporters database, verify all the tables are selected, and select **Next: Summary >>**.
 
@@ -612,7 +614,7 @@ In this exercise, you will demonstrate value from the upgrade by enabling the Ta
 
    ![In the SSMS results pane, the size of the uncompressed FactInternetSales table is highlighted.](media/ssms-query-results-factinternetsales-uncompressed-size.png "Query results")
 
-6. In the Object Explorer, expand Databases, WideWorldImporters, and Tables.
+6. In the Object Explorer, expand **Databases > WideWorldImporters > Tables**.
 
    ![Databases is highlighted in Object Explorer, WideWorldImporters is highlighted below that, and then Tables is highlighted below that.](./media/ssms-object-explorer-tables.png "Select Tables")
 
