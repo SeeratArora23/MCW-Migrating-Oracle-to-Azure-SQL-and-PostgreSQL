@@ -457,7 +457,7 @@ In this task, you create a new migration project for the WideWorldImporters data
 
    - **Target server type**: Select Azure SQL Database.
 
-   - **Choose type of activity**: Select Create project only and select **Save**.
+   - **Choose type of activity**: Select **Create project only** and select **Save**.
 
      ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](media/dms-new-migration-project-blade.png "New migration project")
 
