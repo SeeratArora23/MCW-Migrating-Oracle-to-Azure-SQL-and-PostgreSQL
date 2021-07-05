@@ -230,7 +230,10 @@ WWI has provided you with a copy of their application, including a database scri
 
 6. If prompted for how you want to open the file, select **Visual Studio 2019**, and select **OK**.
 
-7. Sign into Visual Studio (or create an account if you don't have one), when prompted.
+7. Sign into Visual Studio using the credential given below, when prompted.
+  * Username - **<inject key="AzureAdUserEmail" />** and select **Next**.
+  * Password - **<inject key="AzureAdUserPassword" />** and select **Sign in**.
+  * Select **Start Visual Studio**.
 
 8. At the Security Warning screen, uncheck **Ask me for every project in this solution**, and select **OK**.
 
