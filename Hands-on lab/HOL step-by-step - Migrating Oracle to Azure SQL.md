@@ -893,7 +893,7 @@ In this task, you will install a third-party extension to Visual Studio to enabl
 
 2. Scroll down on the page, and download a Trial of the current version by selecting the blue download link.
 
-   ![The Download button is highlighted under dbForge Fusion, Current Version.](./media/dbforge-trial-download.png "dbForge Fusion, Current Version section")
+   ![The Download button is highlighted under dbForge Fusion, Current Version.](./media/sql08.png "dbForge Fusion, Current Version section")
 
 3. Run the installer.
 
@@ -939,7 +939,10 @@ WWI has provided you with a copy of their application, including a database scri
 
 9. If prompted for how you want to open the file, select **Visual Studio 2019**, and select **OK**.
 
-10. Sign into Visual Studio (or create an account if you don't have one), when prompted.
+10. Sign into Visual Studio using the credential given below, when prompted.
+  * Username - **<inject key="AzureAdUserEmail" />** and select **Next**.
+  * Password - **<inject key="AzureAdUserPassword" />** and select **Sign in**.
+  * Select **Start Visual Studio**.
 
 11. At the Security Warning screen, uncheck **Ask me for every project in this solution**, and select **OK**.
 
